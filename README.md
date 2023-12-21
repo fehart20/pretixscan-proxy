@@ -1,3 +1,14 @@
+# Config
+
+```java
+java \
+    -Dpretixscan.database="jdbc:postgresql://localhost:5432/pretixscan?user=pretixscan&password=VAULT" \
+    -Dpretixscan.baseurl="http://192.168.178.129:7000" \
+    -Dpretixscan.adminauth="admin:admin" \
+    -Dpretixscan.autoOfflineMode="off" \
+    -jar server/build/libs/server-2.4.0.dirty.jar
+```
+
 pretixSCAN Proxy
 ================
 
